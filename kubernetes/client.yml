@@ -18,9 +18,7 @@ spec:
           image: jyotiraditya11/book-app-frontend:v2
           ports:
             - containerPort: 5173
-          env:
-            - name: VITE_API_URL
-              value: http://server.book-app.svc.cluster.local:8003
+
 
 
 ---
